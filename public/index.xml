@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tiffany Guard</title>
+    <link>/</link>
+    <description>Recent content on Tiffany Guard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Travels</title>
+      <link>/blog/my-travels/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/my-travels/</guid>
+      <description>I recently traveled to the North East! I visited Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire, and New York within a short six day period. Please enjoy some of the pictures I was able to capture!</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/blog/python/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python/</guid>
+      <description>When it comes to Python, in comparison to R, to view the data, you must insert “.describe” instead of inserting “view” or “summary.” I also learned to insert “plt.scatter” to view a scatterplot of your data. Being able to visualize your numbers can tremendously aid scientists and data analysts in whatever source of information they are piecing together.
+library(reticulate)import pandas as pdfaithful=pd.read_csv(&amp;quot;https://vincentarelbundock.github.io/Rdatasets/csv/datasets/faithful.csv&amp;quot;)faithful[&amp;quot;eruptions&amp;quot;].describe()## count 272.000000## mean 3.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

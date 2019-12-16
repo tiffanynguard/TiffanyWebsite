@@ -1,0 +1,46 @@
+baseurl = "/"
+languageCode = "en-US"
+title = "Tiffany Guard"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profilepic.jpeg"
+  author = "Tiffany Guard"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "tiffanynguard"
+
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "Project 1"
+  identifier = "Project1"
+  weight = 200
+  url = "/Project1.pdf"
+[[menu.main]]
+  name = "Project 2"
+  identifier = "Project2"
+  weight = 200
+  url = "/Project2.pdf"  
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/MyResume.pdf"

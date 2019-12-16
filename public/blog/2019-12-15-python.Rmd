@@ -1,0 +1,23 @@
+---
+title: Python
+author: Tiffany Guard
+date: '2019-12-15'
+slug: python
+categories: []
+tags: []
+description: ''
+---
+When it comes to Python, in comparison to R, to view the data, you must insert “.describe” instead of inserting “view” or “summary.” I also learned to insert “plt.scatter” to view a scatterplot of your data. Being able to visualize your numbers can tremendously aid scientists and data analysts in whatever source of information they are piecing together.  
+
+```{r}
+library(reticulate)
+```
+
+```{python}
+import pandas as pd
+
+faithful=pd.read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/datasets/faithful.csv")
+
+faithful["eruptions"].describe()
+
+```
